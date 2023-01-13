@@ -1,0 +1,45 @@
+1 //shift up
+1 //shift up
+7 //mirror y
+1 //shift up
+6 //mirror x
+1 //shift up
+3 //shift left
+2 //shift down
+3 //shift left
+5 //average
+3 //shift left
+7 //mirror y
+2 //shift down
+2 //shift down
+6 //mirror x
+4 //shift right
+5 //average
+2 //shift down
+7 //mirror y
+2 //shift down
+6 //mirror x
+4 //shift right
+5 //average
+4 //shift right
+7 //mirror y
+4 //shift right
+6 //mirror x
+2 //shift down
+5 //average
+4 //shift right
+6 //mirror x
+4 //shift right
+7 //mirror y
+1 //shift up
+5 //average
+1 //shift up
+1 //shift up
+3 //shift left
+6 //mirror x
+1 //shift up
+5 //average
+7 //mirror y
+4 //shift right
+7 //mirror y
+0 //write
