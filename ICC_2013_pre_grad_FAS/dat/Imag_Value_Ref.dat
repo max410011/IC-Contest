@@ -1,0 +1,8 @@
+parameter signed [19:0] w_imag_0 = 20'h00000 ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 0: 000
+parameter signed [19:0] w_imag_1 = 20'hF9E09 ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 1: -3.826752e-001
+parameter signed [19:0] w_imag_2 = 20'hF4AFC ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 2: -7.070923e-001
+parameter signed [19:0] w_imag_3 = 20'hF137D ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 3: -9.238739e-001
+parameter signed [19:0] w_imag_4 = 20'hF0000 ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 4: -01
+parameter signed [19:0] w_imag_5 = 20'hF137D ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 5: -9.238739e-001
+parameter signed [19:0] w_imag_6 = 20'hF4AFC ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 6: -7.070923e-001
+parameter signed [19:0] w_imag_7 = 20'hF9E09 ;     //The imag part of the reference table about COS(x)+i*SIN(x) value , 7: -3.826752e-001

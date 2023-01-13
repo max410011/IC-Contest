@@ -1,0 +1,8 @@
+parameter signed [19:0] w_real_0 = 20'h10000 ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 0: 001
+parameter signed [19:0] w_real_1 = 20'h0EC83 ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 1: 9.238739e-001
+parameter signed [19:0] w_real_2 = 20'h0B504 ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 2: 7.070923e-001
+parameter signed [19:0] w_real_3 = 20'h061F7 ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 3: 3.826752e-001
+parameter signed [19:0] w_real_4 = 20'h00000 ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 4: 000
+parameter signed [19:0] w_real_5 = 20'hF9E09 ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 5: -3.826752e-001
+parameter signed [19:0] w_real_6 = 20'hF4AFC ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 6: -7.070923e-001
+parameter signed [19:0] w_real_7 = 20'hF137D ;     //The real part of the reference table about COS(x)+i*SIN(x) value , 7: -9.238739e-001
