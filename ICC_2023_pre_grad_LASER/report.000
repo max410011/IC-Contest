@@ -1,0 +1,17 @@
+
+FTP account:                       Bxxxxx
+
+Level:                             A/B/C
+cycle:                             40000
+Synthesis area:                    30000
+
+--- RTL category---
+HDL simulator :                    xrun/vcs/vsim/... 
+RTL filename :                     LASER.v            
+
+--- Pre-layout gate-level ---
+gate-levelfilename:                LASER_syn.v  
+gate-level sdf filename:           LASER_syn.sdf        
+
+-----(annotation)--------------------------------------------------------
+ (optional, write down anything that you want raters know)
