@@ -119,14 +119,10 @@ always @(posedge CLK) begin
     end
     else if(cs == FIND || WAIT_signal) begin
         for(i=0;i<10;i=i+1) begin // use shift register to reduce area
-            x_list[i] <= x_list[i+10];
-            x_list[i+10] <= x_list[i+20];
-            x_list[i+20] <= x_list[i+30];
-            x_list[i+30] <= x_list[i];
-            y_list[i]    <= y_list[i+10];
-            y_list[i+10] <= y_list[i+20];
-            y_list[i+20] <= y_list[i+30];
-            y_list[i+30] <= y_list[i];
+            x_list[i]    <= x_list[i+10];    y_list[i]    <= y_list[i+10];
+            x_list[i+10] <= x_list[i+20];    y_list[i+10] <= y_list[i+20];
+            x_list[i+20] <= x_list[i+30];    y_list[i+20] <= y_list[i+30];
+            x_list[i+30] <= x_list[i];       y_list[i+30] <= y_list[i];
         end
     end
 end
