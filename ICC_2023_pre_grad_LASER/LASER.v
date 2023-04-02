@@ -24,6 +24,7 @@ reg [1:0] counter2;
 reg [3:0] x_list[0:39], y_list[0:39]; // Store 40 dot coordinate
 reg [0:39] p1_list, p2_list; // Store which dot are chosen by circle_1 and circle_2
 
+ // xy: scan circle, x1y1: best circle in scanning, x2y2: fixed circle, x_old y_old: check if result converged
 reg [3:0] x, y, x1, y1, x2, y2, x_old, y_old;
 reg [5:0] p1, p2, p, max_p, true_p1; // Store how many dot are covered
 
